@@ -32,7 +32,7 @@ describe('Take Home Assignment', function() {
 
      })
 
-     it("returns the Fizz in case divisible by 3",  function() {
+     it("returns Fizz in case divisible by 3",  function() {
          request(url+"3", function(error, response, body) {
            expect(body).to.equal("Fizz")
 
@@ -48,7 +48,7 @@ describe('Take Home Assignment', function() {
 
        })
 
-       it("returns the Buzz in case divisible by 5",  function() {
+       it("returns Buzz in case divisible by 5",  function() {
            request(url+"5", function(error, response, body) {
              expect(body).to.equal("Buzz")
 
@@ -64,7 +64,7 @@ describe('Take Home Assignment', function() {
 
          })
 
-         it("returns the FizzBuzz in case divisible by 3 and 5",  function() {
+         it("returns FizzBuzz in case divisible by 3 and 5",  function() {
              request(url+"15", function(error, response, body) {
                expect(body).to.equal("FizzBuzz")
 
@@ -80,7 +80,7 @@ describe('Take Home Assignment', function() {
 
            })
 
-           it("returns the status 400 in case of illegal input",  function() {
+           it("returns status 400 in case of illegal input",  function() {
              request(url+"123456", function(error, response, body) {
                expect(response.statusCode).to.equal(400)
 
@@ -93,7 +93,7 @@ describe('Take Home Assignment', function() {
 
              request(url+"0", function(error, response, body) {
                expect(response.statusCode).to.equal(400)
-  
+
              })
 
              })
