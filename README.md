@@ -1,9 +1,11 @@
 # TakeHomeAssignment
 
-To use npm to run the app:
+Use npm(https://www.npmjs.com/) to run the app:
 
-Step 1: npm install
+Step 0: clone the repo and cd into the TakeHomeAssignment directory
 
-Step 2: npm start
+Step 1: run "npm install"
 
-Once the app is running you can also run the tests by opening another terminal and running npm test.
+Step 2: run "npm start"
+
+Once the app is running you can also run the tests by opening another terminal and running "npm test".
